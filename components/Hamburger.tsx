@@ -1,21 +1,25 @@
 import { PiDotsNineBold } from "react-icons/pi";
-import { Dispatch, SetStateAction } from "react";
+import { MdClose } from "react-icons/md";
+import { IMenu } from "../types";
 
-interface IMenu {
-  setOpen: Dispatch<SetStateAction<boolean>>;
-  open: boolean;
-}
-
-const Hamburger = ({setOpen, open}: IMenu) => {
-
+const Hamburger = ({ setOpen, open }: IMenu) => {
   const handleClick = () => {
-    setOpen(!open)
-  }
+    setOpen(!open);
+  };
   return (
     <div>
-      <PiDotsNineBold size={48} onClick={handleClick} className="cursor-pointer"/>
+      {open ? (
+        <MdClose size={40} onClick={handleClick} className="cursor-pointer" />
+      ) : (
+        <PiDotsNineBold
+          size={40}
+          onClick={handleClick}
+          className="cursor-pointer"
+        />
+      )}
+      {/* <PiDotsNineBold size={48} onClick={handleClick} className="cursor-pointer"/> */}
     </div>
-  )
-}
+  );
+};
 
-export default Hamburger
+export default Hamburger;
