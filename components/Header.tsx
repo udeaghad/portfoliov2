@@ -3,6 +3,7 @@ import { useState } from "react";
 import Logo from "./Logo";
 import Hamburger from "./Hamburger";
 import Menu from "./Menu";
+import DarkModeToggle from "./DarkModeToggle";
 
 const Header = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -13,7 +14,10 @@ const Header = () => {
           <Logo />
         </div>
         <div>
-          <Hamburger setOpen={setOpen} open={open}/>
+          <DarkModeToggle />
+        </div>
+        <div>
+          <Hamburger setOpen={setOpen} open={open} />
         </div>
       </nav>
       {open && (
