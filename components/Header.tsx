@@ -8,7 +8,7 @@ import DarkModeToggle from "./DarkModeToggle";
 const Header = () => {
   // const [open, setOpen] = useState<boolean>(false);
   return (
-    <header className="static font-white w-full">
+    <header className="font-white w-screen">
       <nav className="flex justify-between p-2">
         <div>
           <Logo />
