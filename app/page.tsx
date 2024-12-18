@@ -1,3 +1,4 @@
+import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ProfilePix from "@/components/ProfilePix";
@@ -11,7 +12,12 @@ export default function Home() {
       <div>
         <ProfilePix />
       </div>
-      <div className="absolute bottom-0">
+
+      <div>
+        <AboutSection />
+      </div>
+
+      <div className="fixed bottom-0">
         <Footer />
       </div>
     </main>
