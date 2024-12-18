@@ -1,10 +1,13 @@
 import Footer from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
     <main className="h-dvh relative">
-      <h1>My New porfolio</h1>
-      <div className="absolute bottom-0 w-full">
+      <div>
+        <HeroSection />
+      </div>
+      <div className="absolute bottom-0">
         <Footer />
       </div>
     </main>

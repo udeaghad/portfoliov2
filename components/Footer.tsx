@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <footer className="w-full flex justify-between bg-black text-white">
+  return <footer className="w-screen flex justify-between bg-black text-white">
     <div className="text-lg font-medium p-4">
       About
     </div>
