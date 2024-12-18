@@ -1,30 +1,30 @@
-"use client";
-import { useState } from "react";
+// "use client";
+// import { useState } from "react";
 import Logo from "./Logo";
-import Hamburger from "./Hamburger";
-import Menu from "./Menu";
+// import Hamburger from "./Hamburger";
+// import Menu from "./Menu";
 import DarkModeToggle from "./DarkModeToggle";
 
 const Header = () => {
-  const [open, setOpen] = useState<boolean>(false);
+  // const [open, setOpen] = useState<boolean>(false);
   return (
-    <header className="static">
-      <nav className="flex justify-between m-2">
+    <header className="static font-white w-full">
+      <nav className="flex justify-between p-2">
         <div>
           <Logo />
         </div>
         <div>
           <DarkModeToggle />
         </div>
-        <div>
+        {/* <div>
           <Hamburger setOpen={setOpen} open={open} />
-        </div>
+        </div> */}
       </nav>
-      {open && (
+      {/* {open && (
         <div>
           <Menu />
         </div>
-      )}
+      )} */}
     </header>
   );
 };
