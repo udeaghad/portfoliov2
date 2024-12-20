@@ -16,7 +16,7 @@ const HeroSection = () => {
           </span>
         </div>
       </div>
-      <div className="mt-3 text-justify text-lg font-medium text-slate-500 dark:text-slate-400 w-3/4">
+      <div className="mt-3 text-justify text-xl font-medium text-slate-500 dark:text-slate-400 p-5">
         I have passion for technology and excited about the impact of emerging
         disruptive technologies. I am result-driven, self-motivated, and can
         communicate effectively in a cross-functional team.

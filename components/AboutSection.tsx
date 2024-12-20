@@ -1,13 +1,16 @@
-import React from "react";
+import { Separator } from "@/components/ui/separator"
+
 
 const AboutSection = () => {
   return (
-    <div className="mt-6 bg-slate-200 pt-4 dark:bg-slate-900">
+    <div className="mt-6 bg-slate-200 py-4 dark:bg-slate-900">
       <div className="mt-4">
-        <h3 className="text-3xl font-extrabold text-center">About Me</h3>
+        <h3 className="text-3xl font-extrabold text-center underline underline-offset-4">About Me</h3>
       </div>
 
-      <div className="mt-4 text-2xl text-justify text-slate-600 dark:text-slate-300 w-3/4 m-auto">
+      
+
+      <div className="mt-4 text-xl text-justify text-slate-600 dark:text-slate-300 p-5">
         <p>
           As a skilled Full Stack Developer with experience building scalable,
           secured, and high-performing applications, I am passionate about
