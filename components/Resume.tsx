@@ -1,5 +1,6 @@
 import React from "react";
 import Timeline from "./Timeline";
+import { Separator } from "./ui/separator";
 
 const Resume = () => {
   const resume = [
@@ -7,7 +8,7 @@ const Resume = () => {
       id: 1,
       startDate: "2023",
       endDate: "2024",
-      title: "Full Stack Developer",
+      title: "Full Stack Developer (Contact)",
       company: "Wayagram",
       reponsibility1:
         "Collaborated closely with the other developers to re-design the landing page, and enhanced e-shop, promotions, crowdfunding, and chat to align with business objectives.",
@@ -45,9 +46,11 @@ const Resume = () => {
   ];
   return (
     <div className="mt-5">
+      <Separator className="bg-slate-400" />
       <h3 className="text-3xl font-bold text-left m-3 italic dark:text-slate-200">
         Expereiences
       </h3>
+      <Separator className="bg-slate-400" />
       <Timeline resume={resume} />
     </div>
   );

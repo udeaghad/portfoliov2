@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ProfilePix from "@/components/ProfilePix";
+import Qualification from "@/components/Qualification";
 import Resume from "@/components/Resume";
 import { Separator } from "@/components/ui/separator";
 
@@ -23,8 +24,8 @@ export default function Home() {
         <h3 className="text-3xl font-extrabold text-center py-5 dark:text-slate-200 underline underline-offset-4">
           Resume
         </h3>
-        {/* <Separator className="my-4 bg-slate-400" /> */}
         <Resume />
+        <Qualification />
       </div>
 
       <div className="fixed bottom-0">

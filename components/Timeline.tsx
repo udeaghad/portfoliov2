@@ -37,8 +37,8 @@ const Timeline = ({ resume }: TimelineProps) => {
             </div>
             <ul className="list-disc list-inside text-xl flex flex-col gap-3">
               <li>{item.reponsibility1}</li>
-              <li>{item.reponsibility2}</li>
-              <li>{item.reponsibility3}</li>
+              {item.reponsibility2 && <li>{item.reponsibility2}</li>}
+              {item.reponsibility3 && <li>{item.reponsibility3}</li>}
             </ul>
           </div>
         </div>
