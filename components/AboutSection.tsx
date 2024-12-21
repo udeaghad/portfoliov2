@@ -3,7 +3,7 @@ import { Separator } from "@/components/ui/separator"
 
 const AboutSection = () => {
   return (
-    <div className="mt-6 bg-slate-200 py-4 dark:bg-slate-900">
+    <div className="mt-6 bg-slate-100 py-4 dark:bg-slate-900">
       <div className="mt-4">
         <h3 className="text-3xl font-extrabold text-center underline underline-offset-4">About Me</h3>
       </div>

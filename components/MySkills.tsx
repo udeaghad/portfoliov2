@@ -6,6 +6,7 @@ import {
   FaDatabase,
   FaGitAlt,
   FaChrome,
+  FaGithub,
 } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFigma } from "react-icons/io5";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
@@ -141,7 +142,9 @@ const MySkills = () => {
 
             <li className="flex flex-col items-center">
               <BiLogoZoom size={100} color="blue" />
-              <span className="text-2xl font-bold text-center w-32">Remote Collaboration</span>
+              <span className="text-2xl font-bold text-center w-32">
+                Remote Collaboration
+              </span>
             </li>
 
             <li className="flex flex-col items-center">
@@ -152,6 +155,11 @@ const MySkills = () => {
             <li className="flex flex-col items-center">
               <SiJirasoftware size={100} color="blue" />
               <span className="text-2xl font-bold">Jira</span>
+            </li>
+
+            <li className="flex flex-col items-center">
+              <FaGithub size={100} color="black" />
+              <span className="text-2xl font-bold">GitHub</span>
             </li>
           </ul>
         </div>
@@ -173,7 +181,9 @@ const MySkills = () => {
                   height={100}
                   objectFit="cover"
                 />
-                <span className="text-2xl font-bold text-center">PRINCE2 Practitioner</span>
+                <span className="text-2xl font-bold text-center">
+                  PRINCE2 Practitioner
+                </span>
               </li>
 
               <li className="flex flex-col items-center">
@@ -185,7 +195,9 @@ const MySkills = () => {
                   objectFit="cover"
                 />
 
-                <span className="text-2xl font-bold text-center w-32">ITIL Practitioner</span>
+                <span className="text-2xl font-bold text-center w-32">
+                  ITIL Practitioner
+                </span>
               </li>
             </ul>
           </div>
