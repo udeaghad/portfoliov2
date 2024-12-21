@@ -158,7 +158,7 @@ const MySkills = () => {
             </li>
 
             <li className="flex flex-col items-center">
-              <FaGithub size={100} color="black" />
+              <FaGithub size={100} color="#3a3838" />
               <span className="text-2xl font-bold">GitHub</span>
             </li>
           </ul>
