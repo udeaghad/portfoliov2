@@ -32,14 +32,14 @@ const Resume = () => {
     },
     {
       id: 3,
-      startDate: "2021",
-      endDate: "2023",
+      startDate: "2017",
+      endDate: "2022",
       title: "Supply Chain Manager",
-      company: "C-Kompass Recycling Solutions",
+      company: "Johens Agro-Industrial Co. Ltd",
       reponsibility1:
         "Designed and implemented robust warehousing and inventory management procedures, ensuring optimal stock levels and efficient flow of goods.",
       reponsibility2:
-        "Led cross-functional supply chain teams, driving collaboration and fostering a high-performance culture to meet operational goals.",
+        "Optimized transportation routes, selected logistic providers, managed warehousing, and tracked shipments to ensure on-time delivery",
       reponsibility3:
         "Negotiated contracts with suppliers and logistics providers, reducing costs and enhancing operational efficiency across the supply chain.",
     },

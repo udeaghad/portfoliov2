@@ -1,6 +1,7 @@
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import MySkills from "@/components/MySkills";
 import ProfilePix from "@/components/ProfilePix";
 import Qualification from "@/components/Qualification";
 import Resume from "@/components/Resume";
@@ -20,12 +21,13 @@ export default function Home() {
         <AboutSection />
       </div>
 
-      <div className="dark:bg-black">
+      <div className="dark:bg-black py-10">
         <h3 className="text-3xl font-extrabold text-center py-5 dark:text-slate-200 underline underline-offset-4">
           Resume
         </h3>
         <Resume />
         <Qualification />
+        <MySkills />
       </div>
 
       <div className="fixed bottom-0">
