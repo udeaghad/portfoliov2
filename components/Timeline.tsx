@@ -1,15 +1,4 @@
-interface TimelineProps {
-  resume: {
-    id: number;
-    startDate: string;
-    endDate: string;
-    title: string;
-    company: string;
-    reponsibility1: string;
-    reponsibility2?: string;
-    reponsibility3?: string;
-  }[];
-}
+import {TimelineProps} from '../types/index';
 // const TimeLineItem = Tline.Item;
 
 const Timeline = ({ resume }: TimelineProps) => {

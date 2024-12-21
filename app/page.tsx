@@ -1,4 +1,6 @@
 import AboutSection from "@/components/AboutSection";
+import DownloadButton from "@/components/DownloadButton";
+import DownLoadIcon from "@/components/DownLoadIcon";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MySkills from "@/components/MySkills";
@@ -22,12 +24,26 @@ export default function Home() {
       </div>
 
       <div className="dark:bg-black py-10">
-        <h3 className="text-3xl font-extrabold text-center py-5 dark:text-slate-200 underline underline-offset-4">
-          Resume
-        </h3>
+        <div className="flex justify-center items-center gap-2">
+          <h3 className="text-3xl font-extrabold text-center dark:text-slate-200 underline underline-offset-4">
+            Resume
+          </h3>
+          <div>
+            <DownLoadIcon />
+          </div>
+        </div>
+
         <Resume />
         <Qualification />
         <MySkills />
+        <Separator className="bg-slate-400 my-5" />
+        <div className="flex justify-center">
+          <DownloadButton
+            link="/assets/Resume.pdf"
+            filename="Resume.pdf"
+            name="Download Resume"
+          />
+        </div>
       </div>
 
       <div className="fixed bottom-0">
